@@ -1,0 +1,136 @@
+body {
+	background-color: #EF476F;
+}
+nav a {
+	color: #FFD166;
+}
+
+.bag{font-family: "lato";
+font-size: 18px;
+	color: #FFD166;
+	display: none; 
+}
+
+.wimg{
+	cursor: pointer;
+}
+
+.bag a{
+	color: #06D6A0;
+}
+.bag h3{
+	font-size: 28px;
+
+}
+.waifu{
+	cursor: pointer;
+}
+
+.video-background {
+  background: #000;
+  position: relative;
+  top: 0; right: 0; bottom: 0; left: 0;
+
+}
+.video-foreground,
+.video-background iframe {
+  top: 100%;
+  left: 100%;
+  width: 100%;
+  height: 700px;
+  pointer-events: none;
+}
+
+.cards {background-color:#FFD166;
+	color: #118AB2;
+	font-family: "lato";
+	width: 250px;
+	cursor: pointer;
+}
+
+#blank1 {
+	padding: 10px;
+}
+
+h2 {
+	font-family: "lato";
+	font-kerning: 120px;
+	color: #FFD166;
+	text-align: center;
+	letter-spacing: 30px;
+}
+
+@keyframes subcrds {
+    0%   {bottom:200px;}
+    100% {bottom:0px;}
+}
+
+.subcards {
+	font-family: "lato";
+	width: 250px;
+	color: white;
+	text-align: justify;
+	display: none;
+	position: relative;
+	animation-name: subcrds;
+	animation-duration: 0.5s;
+}
+
+.show{
+	display: block;
+
+}
+@keyframes sgba {
+    0%   {right:1250px; top:0px;opacity: 0.1;}
+    100% {right:0px; top:0px; opacity: 100;}
+}
+
+.sgb{
+	font-family: "lato";
+	background-color:#073B4C;
+	color: #FFD166;
+	height: 200px;
+	width: 700px;
+	padding-top: 45px;
+	margin-bottom: 30px;
+	font-size: 20px;
+	position: relative;
+	display: none;
+}
+
+.sgb1 {
+	animation-name: sgba;
+	animation-duration: 3s;
+	animation-timing-function: ease;
+}
+
+.sgb2 {
+	animation-name: sgba;
+	animation-duration: 3.5s;
+	animation-timing-function: ease;
+}
+
+.sgb3 {
+	animation-name: sgba;
+	animation-duration: 4s;
+	animation-timing-function: ease;
+}
+
+#empty{background-color: none;
+padding-top: 50px;
+padding-right: 300px;
+padding-left: 300px;
+}
+
+#footer{
+	background-color: #118AB2;
+	padding-bottom: 60px;
+	padding-top: 40px;
+	border-top-style: solid;
+	border-top-color: #FFD166;
+	border-top-width: 4px;
+
+}
+strong{
+	font-weight: 900;
+}
